@@ -17,8 +17,9 @@ optional arguments:
 
 ## Sample output
 
-user@computer:~/dir_watcher\$ python watcher.py ~/dirwatch/ magic -i 2.0 --ext txt
-2019-07-22 09:45:30,536 - **main** - INFO -
+    -----------------------
+    user@computer:~/dir_watcher\$ python watcher.py ~/dirwatch/ magic -i 2.0 --ext txt
+    2019-07-22 09:45:30,536 - **main** - INFO -
 
     --------------------------------
 
@@ -26,11 +27,11 @@ user@computer:~/dir_watcher\$ python watcher.py ~/dirwatch/ magic -i 2.0 --ext t
 
     --------------------------------
 
-2019-07-22 09:45:30,536 - **main** - INFO - Searching=/dirwatch/ for text=magic in files with ext=txt every sec=2.0
-2019-07-22 09:45:30,537 - **main** - INFO - File=file.txt found, adding to watched list
-2019-07-22 09:45:30,537 - **main** - INFO - Text =magic found in file=/dirwatch/file.txt at line=5
-2019-07-22 09:46:01,573 - **main** - WARNING - Received SIGINT
-2019-07-22 09:46:01,573 - **main** - INFO -
+    2019-07-22 09:45:30,536 - **main** - INFO - Searching=/dirwatch/ for text=magic in files with ext=txt every sec=2.0
+    2019-07-22 09:45:30,537 - **main** - INFO - File=file.txt found, adding to watched list
+    2019-07-22 09:45:30,537 - **main** - INFO - Text =magic found in file=/dirwatch/file.txt at line=5
+    2019-07-22 09:46:01,573 - **main** - WARNING - Received SIGINT
+    2019-07-22 09:46:01,573 - **main** - INFO -
 
     --------------------------------
 
